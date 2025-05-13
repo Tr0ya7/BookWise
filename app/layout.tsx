@@ -19,7 +19,7 @@ const bebasNeue = localFont({
 
 export const metadata: Metadata = {
   title: "BookWise",
-  description: "BookWise is a book borrowing university library managment solution."
+  description: "BookWise is a book borrowing university library management solution."
 }
 
 const RootLayout = ({ children }: { children: ReactNode }) => <html lang="en"><body className={`${ibmPlexSans.className} ${bebasNeue.variable} antialiased`}>{children}</body></html>
